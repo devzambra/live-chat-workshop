@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  list-style: none; }
+
+.main {
+  height: 500px; }
+  .main .messages-container {
+    height: 100%;
+    width: 50%;
+    margin: 25px auto;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: #ababab 1px 1px 6px 2px; }
+    .main .messages-container ul {
+      text-align: left;
+      overflow-y: auto;
+      max-height: 450px;
+      padding-inline-start: 0; }
+      .main .messages-container ul li {
+        margin: 10px; }
+        .main .messages-container ul li span {
+          display: inline-block;
+          border: 1px solid #ababab;
+          border-radius: 15px;
+          padding: 5px;
+          background-color: aquamarine;
+          box-shadow: #ababab 1px 1px 6px 2px;
+          max-width: 250px; }
+        .main .messages-container ul li.user-me {
+          text-align: right; }
+          .main .messages-container ul li.user-me span {
+            background-color: #f1f1f1; }
+  .main .sendForm {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -70px; }
+    .main .sendForm input {
+      width: 100%;
+      height: 25px;
+      border-radius: 15px;
+      border: 1px solid #ababab; }
+    .main .sendForm button {
+      margin-top: -24px;
+      border: none;
+      border-left: 1px solid #ababab;
+      z-index: 999;
+      margin-right: 5px;
+      position: absolute;
+      right: 25%;
+      background: none;
+      color: green;
+      font-weight: bolder;
+      font-family: Verdana;
+      text-transform: uppercase;
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
